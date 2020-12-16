@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>KALKULATOR</title>
+<style>
+body{
+		background: #FF6660;
+	}
+
+form{
+	width: 205px;
+	margin:auto;
+	background: #3E3E3E;
+	border-radius: 1%;
+	box-shadow: 0px 3px 8px #000;
+}
+input[type=text]{
+	width: 196px;
+	border: none;
+	border-bottom: 1px solid grey;
+	font-size: 18px;
+	color:#fff;
+	background: none;
+}
+td{
+	padding:0px;
+}
+button{
+	border:none;
+	padding: 20px;
+	width: 100%;
+	cursor: pointer;
+	color:grey;
+	background: none;
+}
+button:hover{
+	background: grey;
+	color:#fff;
+}
+h2{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color:#666;
+	margin-bottom: 0;
+	text-align: center;
+	margin-top: 6px;
+}
+.orange{
+	color: orange;
+	text-align: justify;
+}
+h1{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: #fff;
+	font-size: 29px;
+	border-bottom: 3px solid #fff;
+}
+div{
+	width: 200px;
+	margin:auto;
+}
+</style>
+</head>
+<div class="Wrap">
+<form name ="cal">
+<input type="text" name ="display">
+<br><br>
+<input type="button" value ="9" onclick ="cal.display.value+='9'">
+<input type="button" value ="8" onclick ="cal.display.value+='8'">
+<input type="button" value ="7" onclick ="cal.display.value+='7'">
+<input type="button" value ="+" onclick ="cal.display.value+='+'">
+<br><br>
+<input type="button" value ="6" onclick ="cal.display.value+='6'">
+<input type="button" value ="5" onclick ="cal.display.value+='5'">
+<input type="button" value ="4" onclick ="cal.display.value+='4'">
+<input type="button" value ="-" onclick ="cal.display.value+='-'">
+<br><br>
+<input type="button" value ="3" onclick ="cal.display.value+='3'">
+<input type="button" value ="2" onclick ="cal.display.value+='2'">
+<input type="button" value ="1" onclick ="cal.display.value+='1'">
+<input type="button" value ="x" onclick ="cal.display.value+='x'">
+<br><br>
+<input type="button" value ="0" onclick ="cal.display.value+='0'">
+<input type="button" value ="/" onclick ="cal.display.value+='/'">
+<input type="button" value ="%" onclick ="cal.display.value+='%'">
+<input type="button" value ="sin 1" onclick ="cal.display.value+='sin 1'">
+<input type="button" value ="cos-1" onclick ="cal.display.value+='cos-1'">
+<input type="button" value ="10x" onclick ="cal.display.value+='10x'">
+<input type="button" value ="'M-'" onclick ="cal.display.value+='M-'">
+<input type="button" value ="=" onclick ="cal.display.value =eval(cal.display.value)">
+<br><br>
+<input type="button" value ="DELETE" onclick ="cal.display.value=''" id="del">
+<input type="button" value ="." onclick ="cal.display.value+='.'">
+</br>
+            <hr size="2" color="black">
+			</tr>Direct By: YASINTA YASMIN <br>
+</form>
+<body>
+</body>
+</html>
